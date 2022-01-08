@@ -1,0 +1,30 @@
+$border-color: black;
+$table-background: #F8DF8B;
+$header-text-color: #F8DF8B;
+
+.table {
+  margin-left: 10%;
+  width: 80%;
+  border: 2px solid $border-color;
+}
+
+.mat-column-name, .mat-column-email, .mat-column-id, .mat-column-surname, .mat-column-phone {
+  padding-left: 1rem;
+  border-right: 2px solid $border-color;
+}
+
+.mat-column-actions {
+  padding-left: 1rem;
+}
+
+.table-header {
+  .mat-column-name, .mat-column-email, .mat-column-id, .mat-column-surname {
+    margin-left: 1rem;
+
+    font-size: 1rem;
+    color: $header-text-color;
+  }
+}
+.mat-raised-button {
+  margin-left: 1rem;
+}
